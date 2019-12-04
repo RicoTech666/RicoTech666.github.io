@@ -12,19 +12,48 @@ body {
     background: url('images/starfield-banner.jpg');
 }
 
-.header .logo-link {
-    padding: 10px;
-}
+.footer {
+  position: absolute;
+  top: 1080px;
 
+  width: 95%;
+  height: 120px;
+}
+.footer p {
+  margin: 5px;
+  color: white;
+}
+.footer .footerbanner {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+} 
+.footer a {
+  display: inline-block;
+
+  padding: 10px 17px;
+
+  text-decoration: none;
+  color: #5D7FB9;
+}
 .header .logo {
     display: inline-block;
+
     width:110px;
     height: 110px;
     margin:11px;
 
     background: no-repeat center/100px 100px url('images/nasa_logo.png');
 }
+.footer .logo {
+  float: left;
 
+  width: 80px;
+  height: 80px;
+  margin: 8px;
+
+  background: no-repeat center/70px 70px url('images/nasa_logo.png');
+}
 .header a {
     display:inline-block;
 
@@ -86,9 +115,12 @@ body {
 }
 
 .link-topbanner-row2:first-child::before {
-  display: none;
+  border: 0;
 }
 
+.link-topbanner-row2:hover {
+  background: rgb(196, 168, 168);
+}
 .header form {
   display: inline-block;
   position: absolute;
@@ -129,3 +161,6 @@ body {
     font-size: 22px;
     color: white;
 }
+
+
+/*css styles for footer*/
