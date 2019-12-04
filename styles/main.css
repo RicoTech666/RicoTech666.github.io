@@ -1,0 +1,243 @@
+/*css styles for main*/
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 180px;
+}
+
+.contentbox {
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.main a {
+  display: block;
+  position: absolute;
+  bottom: 0;
+
+  padding: 10px;
+
+  font-weight: bold;
+  text-decoration: none;
+  color: black; 
+
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.main a:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.main .link-blue {
+  display: block;
+  position: absolute;
+  bottom: 38px;
+
+  opacity: 0.8;
+  background: #73799D;
+}
+
+.main .link-blue:hover {
+  opacity: 1;
+  background: #39719E;
+}
+
+.contentbox:nth-of-type(2) .link-blue,
+.contentbox:nth-of-type(8) .link-blue,
+.contentbox:nth-of-type(9) .link-blue,
+.contentbox:nth-of-type(10) .link-blue,
+.contentbox:nth-of-type(11) .link-blue {
+  bottom:56px;
+}
+
+.contentbox:nth-of-type(3) {
+  color: white;
+}
+
+.contentbox:nth-of-type(3) h3 {
+  margin: 15px 15px;
+
+  font-weight: normal;
+}
+.contentbox:nth-of-type(3) h3::after {
+  content: '';  
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 15px;
+
+  width: 350px;
+
+  border-bottom: solid white 1px;
+}
+
+.contentbox:nth-of-type(3) p {
+  margin: 10px 10px;
+}
+
+.contentbox:nth-of-type(5)::after,
+.contentbox:nth-of-type(9)::after {
+  content: "\e6fe";
+  display: inline-block;
+  position: relative;
+  left: 350px;
+  top: 15px;
+
+
+  font-family: "iconfont";
+  font-size: 22px;
+  color: white;
+}
+
+.events-links {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+
+  color: white;
+  font-weight: normal;
+}
+.events-links::before {
+  content: '';  
+  position: absolute;
+  left: 10px;
+ 
+
+  width: 350px;
+
+  border-bottom: solid white 1px;
+}
+.events-links a {
+  position: initial;
+  
+  color: white;
+  font-weight: normal;
+
+  background: none;
+}
+.events-links a:hover {
+  text-decoration: white underline;
+
+  background: none;
+}
+
+.contentbox:nth-of-type(1) {
+  width: 850px;
+  height: 680px;
+  margin: 20px;
+
+  background: no-repeat center/850px 680px url('/images/pia21924-16.jpg');
+}
+
+.contentbox:nth-of-type(2) {
+  width: 380px;
+  height: 340px;
+  margin: 20px;
+
+  background: no-repeat center/380px 340px url('/images/mollweide_cycle.jpg');
+}
+
+.contentbox:nth-of-type(3) {
+
+  width: 380px;
+  height: 340px;
+  margin: 20px;
+
+  background: #39719E;
+}
+.contentbox:nth-of-type(4) {
+  position: absolute;
+  left: 890px;
+  top: 360px;
+
+  width: 800px;
+  height: 320px;
+  margin: 20px;
+
+  background: no-repeat center/800px 320px url('/images/s69-39961.jpg');
+}
+.contentbox:nth-of-type(5){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/393px 393px url('/images/ssc2017-14a1.jpg');;
+}
+
+.contentbox:nth-of-type(6){
+  width: 824px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/824px 393px url('/images/pia22556-16.gif');;
+}
+
+.contentbox:nth-of-type(7){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+}
+
+.NASA-video video{
+  width: 393px;
+  height: 393px;
+
+  object-fit: fill;
+}
+
+.contentbox:nth-of-type(8){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/393px 393px url('/images/nasa_logo.png');
+}
+
+.contentbox:nth-of-type(9){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/393px 393px url('/images/io-home.gif');
+}
+
+.contentbox:nth-of-type(10){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/393px 393px url('/images/cassini20170809.jpg');
+}
+
+.contentbox:nth-of-type(11){
+  width: 393px;
+  height: 393px;
+  margin: 20px;
+
+  background: no-repeat center/393px 393px url('/images/fermiicecube_as.jpg');
+}
+
+.more-stories a {
+  display: block;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+
+  width: 1712px;
+  height: 40px;
+
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+
+  background: #15418C;
+}
+
+.more-stories a:hover {
+  background: #6380b2;
+}
