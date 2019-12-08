@@ -130,7 +130,7 @@
   height: 680px;
   margin: 20px;
 
-  background: no-repeat center/850px 680px url('/images/pia21924-16.jpg');
+  background: no-repeat center/850px 680px url('../images/pia21924-16.jpg');
 }
 
 .contentbox:nth-of-type(2) {
@@ -138,7 +138,7 @@
   height: 340px;
   margin: 20px;
 
-  background: no-repeat center/380px 340px url('/images/mollweide_cycle.jpg');
+  background: no-repeat center/380px 340px url('../images/mollweide_cycle.jpg');
 }
 
 .contentbox:nth-of-type(3) {
@@ -158,14 +158,14 @@
   height: 320px;
   margin: 20px;
 
-  background: no-repeat center/800px 320px url('/images/s69-39961.jpg');
+  background: no-repeat center/800px 320px url('../images/s69-39961.jpg');
 }
 .contentbox:nth-of-type(5){
   width: 393px;
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/393px 393px url('/images/ssc2017-14a1.jpg');;
+  background: no-repeat center/393px 393px url('../images/ssc2017-14a1.jpg');;
 }
 
 .contentbox:nth-of-type(6){
@@ -173,7 +173,7 @@
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/824px 393px url('/images/pia22556-16.gif');;
+  background: no-repeat center/824px 393px url('../images/pia22556-16.gif');;
 }
 
 .contentbox:nth-of-type(7){
@@ -194,7 +194,7 @@
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/393px 393px url('/images/nasa_logo.png');
+  background: no-repeat center/393px 393px url('../images/nasa_logo.png');
 }
 
 .contentbox:nth-of-type(9){
@@ -202,7 +202,7 @@
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/393px 393px url('/images/io-home.gif');
+  background: no-repeat center/393px 393px url('../images/io-home.gif');
 }
 
 .contentbox:nth-of-type(10){
@@ -210,7 +210,7 @@
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/393px 393px url('/images/cassini20170809.jpg');
+  background: no-repeat center/393px 393px url('../images/cassini20170809.jpg');
 }
 
 .contentbox:nth-of-type(11){
@@ -218,7 +218,7 @@
   height: 393px;
   margin: 20px;
 
-  background: no-repeat center/393px 393px url('/images/fermiicecube_as.jpg');
+  background: no-repeat center/393px 393px url('../images/fermiicecube_as.jpg');
 }
 
 .more-stories a {
